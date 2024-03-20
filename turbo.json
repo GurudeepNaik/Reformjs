@@ -14,6 +14,15 @@
     },
     "clean": {
       "cache": false
+    },
+    "db:migrate:deploy": {},
+    "db:push": {},
+    "db:seed": {},
+    "studio": {
+      "dependsOn": ["^studio"]
+    },
+    "generate": {
+      "dependsOn": ["^generate"]
     }
   }
 }
